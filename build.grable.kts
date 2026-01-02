@@ -7,4 +7,5 @@ plugins {
 
 tasks.register("clean", Delete::class) {
     delete(rootProject.buildDir)
-}
+}// Compose Navigation
+implementation("androidx.navigation:navigation-compose:2.7.7")
